@@ -42,30 +42,6 @@
     --container-width: 900px;
 
     /* Transitions */
-    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #f1f5f9;
-        --text-light: #cbd5e1;
-        --text-lighter: #94a3b8;
-
-        --bg-color: #0f172a;
-        --bg-secondary: #1e293b;
-
-        --card-bg: rgba(30, 41, 59, 0.8);
-        --card-border: rgba(255, 255, 255, 0.1);
-    }
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 html {
